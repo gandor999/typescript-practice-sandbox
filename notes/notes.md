@@ -1,0 +1,5 @@
+- is it safe to export enum as ```export const enum```?
+- when we look at the build directory the content for js files for interface and enum have gone.
+- enums seem to be good for restricting the choice of values to attach a variable to.
+- interfaces are good for limiting the structure of an object to a certain pattern.
+- the typescript compiler translates the ts files into js files

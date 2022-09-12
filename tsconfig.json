@@ -1,0 +1,17 @@
+{
+  "include": ["src"], // convert all ts files under src to js
+  "exclude": ["node_modules", "src/**/*.spec.ts", "src/**/__tests__/*.ts"], // except these ones
+  "compilerOptions": {
+    "module": "ES6", // use import and export in ts files
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "target": "ES6",
+
+    "outDir": "./build", // export all converted ts files into here
+    "esModuleInterop": true,
+    "typeRoots": ["../node_modules/@types"],
+
+    "strict": true, // enforce strict typing on ts files
+    "skipLibCheck": true
+  }
+}

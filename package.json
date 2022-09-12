@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "start": "npm run build && node ./build" 
+  },
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
+}
